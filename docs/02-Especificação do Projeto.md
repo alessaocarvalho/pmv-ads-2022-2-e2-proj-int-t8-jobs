@@ -6,7 +6,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
 
- ![image](https://user-images.githubusercontent.com/101372729/189243016-9cd2943c-5d80-4a91-9a47-8275193d0d34.png)
+ ## João Teixeira
+ 
+ 
 
 
 
