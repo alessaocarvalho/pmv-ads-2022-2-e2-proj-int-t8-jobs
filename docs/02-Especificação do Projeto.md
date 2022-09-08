@@ -6,7 +6,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
 
- ## João Teixeira
+ # João Teixeira
  
  ![image](https://user-images.githubusercontent.com/101372729/189243307-9fd2fe0e-879c-4189-8f56-937bdee0decf.png)
 
@@ -14,19 +14,19 @@ Idade: 45
 
 Ocupação: Segurança de empresa privada e gesseiro.	
 ### Aplicativos:
-●	Facebook;
-●	Instagram;
-●	OLX;
-●	WhatsApp.
+-	Facebook;
+-	Instagram;
+-	OLX;
+-	WhatsApp.
 ### Motivações:
-●	Trabalhar visando proporcionar uma boa qualidade de vida para a família.
+-	Trabalhar visando proporcionar uma boa qualidade de vida para a família.
 ### Frustrações:
-●	Não conseguir entregar uma obra dentro do prazo;
-●	Não encontrar clientes.	
+-	Não conseguir entregar uma obra dentro do prazo;
+-	Não encontrar clientes.	
 ### Hobbies, História:
-●	Jogar futebol com amigos;
-●	Passear com a família em parques e shoppings;
-●	Pai presente e dedicado na criação dos filhos.
+-	Jogar futebol com amigos;
+-	Passear com a família em parques e shoppings;
+-	Pai presente e dedicado na criação dos filhos.
 
 
 
