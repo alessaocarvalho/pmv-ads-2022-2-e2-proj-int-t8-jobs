@@ -13,17 +13,17 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
 Idade: 45
 
 Ocupação: Segurança de empresa privada e gesseiro.	
-## Aplicativos:
+### Aplicativos:
 ●	Facebook;
 ●	Instagram;
 ●	OLX;
 ●	WhatsApp.
-## Motivações:
+### Motivações:
 ●	Trabalhar visando proporcionar uma boa qualidade de vida para a família.
-## Frustrações:
+### Frustrações:
 ●	Não conseguir entregar uma obra dentro do prazo;
 ●	Não encontrar clientes.	
-## Hobbies, História:
+### Hobbies, História:
 ●	Jogar futebol com amigos;
 ●	Passear com a família em parques e shoppings;
 ●	Pai presente e dedicado na criação dos filhos.
