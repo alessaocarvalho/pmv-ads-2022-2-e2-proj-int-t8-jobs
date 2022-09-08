@@ -10,22 +10,23 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
  
  ![image](https://user-images.githubusercontent.com/101372729/189243307-9fd2fe0e-879c-4189-8f56-937bdee0decf.png)
 
- João Teixeira, Idade: 45
+## João Teixeira, Idade: 45
 	
-### Ocupação: Segurança de empresa privada e gesseiro.	
-### Aplicativos:
-●	FACEBOOK
-●	INSTAGRAM
-●	OLX
-●	WHATSAPP
-### Motivações:
-●	TRABALHAR VISANDO PROPORCIONAR UMA BOA QUALIDADE DE VIDA PARA A FAMÍLIA.
-### Frustrações:
-●	NÃO CONSEGUIR ENTREGAR UMA OBRA DENTRO DO PRAZO.
-●	NÃO ENCONTRAR CLIENTES.	Hobbies, História
-●	JOGAR FUTEBOL COM AMIGOS.
-●	PASSEAR COM A FAMÍLIA EM PARQUES E SHOPPINGS.
-●	PAI PRESENTE E DEDICADO NA CRIAÇÃO DOS FILHOS.
+Ocupação: Segurança de empresa privada e gesseiro.	
+## Aplicativos:
+● Facebook
+● Instagram
+● OLX
+● WhatsApp
+## Motivações
+● Trabalhar visando proporcionar uma boa qualidade de vida para a família.
+## Frustrações
+● Não conseguir entregar uma obra dentro do prazo.
+● Não encontrar clientes.	Hobbies, História
+● Jogar futebol com amigos.
+● Passear com a família em parques e shoppings.
+● Pai presente e dedicado na criação dos filhos.
+
 
  
 
