@@ -12,15 +12,15 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
 
  João Teixeira, Idade: 45
 	
-# Ocupação: Segurança de empresa privada e gesseiro.	
-# Aplicativos:
+### Ocupação: Segurança de empresa privada e gesseiro.	
+### Aplicativos:
 ●	FACEBOOK
 ●	INSTAGRAM
 ●	OLX
 ●	WHATSAPP
-# Motivações:
+### Motivações:
 ●	TRABALHAR VISANDO PROPORCIONAR UMA BOA QUALIDADE DE VIDA PARA A FAMÍLIA.
-# Frustrações:
+### Frustrações:
 ●	NÃO CONSEGUIR ENTREGAR UMA OBRA DENTRO DO PRAZO.
 ●	NÃO ENCONTRAR CLIENTES.	Hobbies, História
 ●	JOGAR FUTEBOL COM AMIGOS.
