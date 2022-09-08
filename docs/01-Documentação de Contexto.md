@@ -11,31 +11,16 @@ No mercado há pouco espaço para que o profissional consiga visibilidade e cres
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Fornecer uma plataforma em que o profissional expõe seus conhecimentos e tipos de projetos que procura realizar para ganhar experiência e remuneração, em contato direto com um contratante que  busca nessa mesma plataforma a solução para a realização do seu projeto.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O trabalho por conta própria no Brasil atingiu o número recorde de 24,8 milhões de pessoas no segundo trimestre de 2021.
+Segundo pesquisa divulgada pelo Instituto Brasileiro de Geografia e Estatística (IBGE), esta quantia corresponde a 28,3% de toda a população ativa no mercado de trabalho.
+Esses resultados apontam um crescimento de 4,2% comparado ao trimestre anterior. Para João Espósito, economista e CEO da Express CTB – accountech de contabilidade, “Essa ascensão no número de profissionais autônomos tem grande responsabilidade no que diz respeito a diminuição das taxas de desemprego. Se comparamos com o mesmo período do ano passado, houve um aumento de mais de 4,4 milhões de empregados no mercado de trabalho, sendo que 71% desta quantia representa trabalhadores autônomos”.
+Atualmente, o Brasil conta com cerca de 24,8 milhões de pessoas que atuam por conta própria. Deste total, apenas  5,7 milhões possuem CNPJ. De acordo com o IBGE, os conta própria informais foram responsáveis por mais da metade da alta na ocupação brasileira.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Profissionais que desejam ganhar experiência e inserção no mercado de trabalho. como também expor sua mão de obra de maneira de maneira fácil e didática, para gerar maior visibilidade ao contratante.  além de pessoas que necessitam de mão de obra para a execução de projetos próprios, que visam maior qualidade e segurança no respectivo serviço.
