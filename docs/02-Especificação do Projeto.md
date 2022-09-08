@@ -28,6 +28,25 @@ Ocupação: Segurança de empresa privada e gesseiro.
 -	Passear com a família em parques e shoppings;
 -	Pai presente e dedicado na criação dos filhos.
 
+# Jadson Mendes
+![image](https://user-images.githubusercontent.com/101372729/189244861-0713b202-ba68-46ff-a36d-aea91a152c79.png)
+
+Idade: 48
+
+Ocupação: Oficial de Manutenção Predial.	
+### Aplicativos:
+- Facebook.
+- Instagram.
+- WhatsApp.
+### Motivações
+-	Tornar-se excelência na prestação de seus serviços à comunidade.
+-	Mudar de vida através do seu trabalho.
+### Frustrações
+-	Não ser reconhecido pelos serviços prestados a um cliente.
+-	Falta de tempo para passar com os familiares.	
+### Hobbies, História
+-	Aprimorar o conhecimento em sua área de atuação.
+-	Profissional dedicado e obcecado por resultados.
 
 
  
