@@ -22,7 +22,8 @@ Ocupação: Segurança de empresa privada e gesseiro.
 ● Trabalhar visando proporcionar uma boa qualidade de vida para a família.
 ## Frustrações
 ● Não conseguir entregar uma obra dentro do prazo.
-● Não encontrar clientes.	Hobbies, História
+● Não encontrar clientes.	
+## Hobbies, História
 ● Jogar futebol com amigos.
 ● Passear com a família em parques e shoppings.
 ● Pai presente e dedicado na criação dos filhos.
