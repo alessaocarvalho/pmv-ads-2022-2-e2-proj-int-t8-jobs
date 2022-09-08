@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# JOBS
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Análise e Projeto de Sistemas de Software`
 
-`SEMESTRE`
+`Segundo Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
