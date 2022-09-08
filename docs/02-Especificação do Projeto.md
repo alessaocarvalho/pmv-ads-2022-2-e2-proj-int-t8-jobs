@@ -14,18 +14,18 @@ Idade: 45
 
 Ocupação: Segurança de empresa privada e gesseiro.	
 ## Aplicativos:
-●	Facebook
-●	Instagram
-●	OLX
-●	WhatsApp
-## Motivações
+●	Facebook;
+●	Instagram;
+●	OLX;
+●	WhatsApp.
+## Motivações:
 ●	Trabalhar visando proporcionar uma boa qualidade de vida para a família.
-	Frustrações
-●	Não conseguir entregar uma obra dentro do prazo.
+## Frustrações:
+●	Não conseguir entregar uma obra dentro do prazo;
 ●	Não encontrar clientes.	
-## Hobbies, História
-●	Jogar futebol com amigos.
-●	Passear com a família em parques e shoppings.
+## Hobbies, História:
+●	Jogar futebol com amigos;
+●	Passear com a família em parques e shoppings;
 ●	Pai presente e dedicado na criação dos filhos.
 
 
