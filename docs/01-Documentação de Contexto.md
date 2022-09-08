@@ -1,18 +1,13 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o avanço da tecnologia e o crescimento social e humanístico que o mundo vive hoje, cada vez mais se torna difícil a exposição de serviços essenciais a sociedade nas mais diferentes esferas do conhecimento, já que com o avanço da internet principalmente boa parte dessa demanda fica presa a grandes corporações que terceirizam esses serviços fazendo com que trabalhadores autônomos se sujeitem ás condições impostas por essas grandes corporações ou encontrem grande dificuldade de manter uma boa carteira de clientes e uma concorrência sadia que também favorece o cliente final. 
+Pensando nesse dilema surge a criação da Job's com a principal premissa de expor com qualidade e de forma personalizada serviços necessários a sociedade em um único lugar e principalmente aumentar a exposição e a oferta de serviços de trabalhadores autônomos.
+ 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+No mercado há pouco espaço para que o profissional consiga visibilidade e cresça em expertise. Há dificuldade em praticar e expor seus conhecimentos e habilidades, mesmo que em projetos pequenos e temporários. Logo, vemos a necessidade de contratar uma mão de obra cujo tenha confiabilidade é meios de avalição perante ao serviço.
 
 ## Objetivos
 
