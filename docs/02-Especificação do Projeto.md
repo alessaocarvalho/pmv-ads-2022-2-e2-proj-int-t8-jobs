@@ -142,13 +142,13 @@ Ocupações: Film Maker, Criador de conteudo.
 -	Cuidar com a casa e animais de estimação.
 -	Aprofundar-se nos estudos de sua área de atuação.
 
+## Historías de Casos de Usuários
 
+A fim de buscar mais informações sobre os motivos e causas de uso dessas pessoas a plataforma a ser desenvolvida, foram realizadas perguntas por meio de entrevistas, tendo resultados demonstrados no quadro apresentado:
 
-
-
-
-
-
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|jOÃO Teixeira | Encontrar clientes de forma rápida e objetiva | Prestar seus serviços com mais tranquilidade afim de complementar sua renda |
 
 
 
