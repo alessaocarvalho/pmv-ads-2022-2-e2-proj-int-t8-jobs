@@ -148,8 +148,9 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|jOÃO Teixeira | Encontrar clientes de forma rápida e objetiva | Prestar seus serviços com mais tranquilidade afim de complementar sua renda |
-
+|joão Teixeira | Encontrar clientes de forma rápida e objetiva | Prestar seus serviços com mais tranquilidade afim de complementar sua renda |
+|João Teixeira | Estabelecer conexões com outros profissionais afim de tocar ideias sobre a execução dos serviços |Encontrar procedimentos visando otimizar o tempo total de uma obra| 
+|Jadson Mendes | Encontrar pessoas e estabelecimentos que buscam serviços de qualidade | Ampliar suas experiências e obter mais resultados satisfatórios | 
 
 
 
