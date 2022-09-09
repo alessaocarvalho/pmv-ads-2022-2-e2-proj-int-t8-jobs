@@ -164,16 +164,30 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Os propósitos funcionais da plataforma serão denotados por intermédio da apresentação de duas categorias diferentes de requisitos (funcionais e não funcionais) que indicará as características que a plataforma demonstrará de maneira total. Sendo apresentados a seguir.
 
 ### Requisitos Funcionais
+Os requisitos funcionais são todas as ações, características, comportamentos e funcionalidades que o sistema deve apresentar em relação às tarefas e serviços oferecidos ao usuário.
+Segundo Sommerville, Addison-Wesley (2011) “os requisitos funcionais são declarações de serviços que o sistema deve fornecer, de como o sistema deve reagir a entradas especificas e de como o sistema deve se comportar em determinadas situações.”
+Sendo assim, o Quadro abaixo descreve o escopo funcional do projeto definindo a prioridade em ordem Cronológica:
+
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|O Usuário deve conseguir criar uma conta na plataforma.   | ALTA | 
+|RF-002|O Usuário deve conseguir editar informações no seu perfil.     | MÉDIA |
+|RF-003|O usuário deve conseguir buscar por serviços disponíveis na plataforma.   | ALTA | 
+|RF-004|O Usuário deve conseguir buscar por serviços vinculados a um determinado anunciante.   | MÉDIA |
+|RF-005|O Usuário deve conseguir visualizar informações de um serviço antes de contatar o anunciante. | ALTA | 
+|RF-006|O Usuário deve conseguir publicar serviços na plataforma.    | ALTA |
+|RF-007|O Anunciante deve conseguir informar valores para seus serviços.   | ALTA | 
+|RF-008|O Anunciante deve conseguir decidir o meio de comunicação com o usuário referente ao serviço publicado.     | ALTA |
+|RF-009|A plataforma deve notificar o anunciante sobre a solicitação de serviço.  | ALTA | 
+|RF-010|O Anunciante deve conseguir rejeitar um serviço caso não queira executa-lo.    | ALTA |
+|RF-011|O Usuário deve conseguir avaliar serviços contratados da plataforma.   | MÉDIA | 
 
 ### Requisitos não Funcionais
+Os requisitos não funcionais não estão relacionados diretamente com os serviços específicos do sistema oferecidos aos seus usuários. Eles estão relacionados com o nível de serviço esperado para o melhor funcionamento do software como um todo. O descritivo abaixo representa o escopo não funcional que a plataforma atenderá:
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
