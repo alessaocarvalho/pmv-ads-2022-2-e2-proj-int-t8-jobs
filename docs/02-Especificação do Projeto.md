@@ -7,25 +7,24 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
 
  # João Teixeira
- 
- ![image](https://user-images.githubusercontent.com/101372729/189243307-9fd2fe0e-879c-4189-8f56-937bdee0decf.png)
+  ![image](https://user-images.githubusercontent.com/101372729/189243307-9fd2fe0e-879c-4189-8f56-937bdee0decf.png)
 
 Idade: 45
 
 Ocupação: Segurança de empresa privada e gesseiro.	
 ### Aplicativos:
--	Facebook;
--	Instagram;
--	OLX;
+-	Facebook.
+-	Instagram.
+-	OLX.
 -	WhatsApp.
 ### Motivações:
 -	Trabalhar visando proporcionar uma boa qualidade de vida para a família.
 ### Frustrações:
--	Não conseguir entregar uma obra dentro do prazo;
+-	Não conseguir entregar uma obra dentro do prazo.
 -	Não encontrar clientes.	
 ### Hobbies, História:
--	Jogar futebol com amigos;
--	Passear com a família em parques e shoppings;
+-	Jogar futebol com amigos.
+-	Passear com a família em parques e shoppings.
 -	Pai presente e dedicado na criação dos filhos.
 
 # Jadson Mendes
@@ -49,7 +48,118 @@ Ocupação: Oficial de Manutenção Predial.
 -	Profissional dedicado e obcecado por resultados.
 
 
- 
+ # Guilherme Prado
+ ![image](https://user-images.githubusercontent.com/101372729/189245168-1616d4cf-3ade-4e78-88d8-16dbedf32ff6.png)
+
+Idade: 21
+
+Ocupação: Técnico em Informática.
+### Aplicativos:
+-	Discord.
+-	Facebook.
+-	Instagram.
+-	Reddit.
+-	Twitch.
+-	Twitter.
+-	YouTube.
+-	WhatsApp.
+### Motivações
+- Prestar ao cliente um serviço de excelência.
+- Entregar ao cliente o resultado que ele mesmo gostaria de receber. 
+### Frustrações
+-	Tentar compreender a falta de conhecimento específico de um cliente.
+-	Sentir que seu trabalho não está sendo bem feito. 
+### Hobbies, História
+-	Consumir conteúdo sobre tecnologia focado em hardware.
+-	Jogar jogos online. 
+
+# Karen Rocha 
+![image](https://user-images.githubusercontent.com/101372729/189246133-5409b24f-4cd1-4ac0-a9be-28419938d3b3.png)
+
+
+Idade: 27
+
+Ocupação: Cuidadora de Idosos, acompanhante hospitalar e estudante de Enfermagem.
+### Aplicativos:
+-	Facebook.
+-	Instagram.
+-	LinkedIn.
+-	Telegram.
+### Motivações
+-	Cuidar das pessoas de forma séria e humana.
+-	Crescer como profissional da saúde.  
+### Frustrações
+-	Sentir que um paciente não está satisfeito com seus cuidados.
+-	Falta de oportunidades para iniciar sua carreira.
+### Hobbies, História
+●	Cuidar com a casa e animais de estimação.
+●	Praticar exercícios físicos.
+●	Aprofundar-se nos estudos de sua área de atuação.
+
+# Luiza Silva 
+![image](https://user-images.githubusercontent.com/101372729/189246145-eddeac65-4066-4842-8345-b2dc8eec0980.png)
+
+
+Idade: 29
+
+Ocupação: Designer de interiores e empresaria.
+### Aplicativos:
+- Instagram.
+- Linkedin.
+-	TikTok.
+-	Youtube.
+### Motivações
+-	Crescer sua empresa e maximizar seus lucros.
+-	Terceirizar serviços.  
+### Frustrações
+-	Falta de resultados expressivos na busca de mão de obra qualificada.
+-	Perda de tempo e de dinheiro ao não conseguir uma equipe qualificada para construir seus projetos.
+### Hobbies, História
+-	Criar artes gráficas.
+-	Maquiagem.
+-	Redes sociais.
+
+# Paulo Ribeiro
+![image](https://user-images.githubusercontent.com/101372729/189246157-e34d4684-f8f0-495b-bbae-15892d6413bf.png)
+
+Idade: 37
+
+Ocupações: Film Maker, Criador de conteudo.
+### Aplicativos:
+-	Youtube.
+-	Instagram.
+-	LinkedIn.
+-	Telegram.
+-	Netflix.
+-	Prime Video.
+### Motivações
+-	Procura de staff qualificada para apoio em seus projetos.
+-	Crescer suas mídias e aumentar o capital de investidores  para suas obras cinematográficas.
+### Frustrações
+-	Sentir que um paciente não está satisfeito com seus cuidados.
+-	Falta de oportunidades para iniciar sua carreira.
+### Hobbies, História
+-	Cuidar com a casa e animais de estimação.
+-	Aprofundar-se nos estudos de sua área de atuação.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
