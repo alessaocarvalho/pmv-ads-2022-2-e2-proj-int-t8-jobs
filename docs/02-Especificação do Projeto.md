@@ -151,17 +151,15 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 |joão Teixeira | Encontrar clientes de forma rápida e objetiva | Prestar seus serviços com mais tranquilidade afim de complementar sua renda |
 |João Teixeira | Estabelecer conexões com outros profissionais afim de tocar ideias sobre a execução dos serviços |Encontrar procedimentos visando otimizar o tempo total de uma obra| 
 |Jadson Mendes | Encontrar pessoas e estabelecimentos que buscam serviços de qualidade | Ampliar suas experiências e obter mais resultados satisfatórios | 
-
-
-
-
-
-
-
-
-
-
-
+|Jadson Mendes | Encontrar pessoas e estabelecimentos que buscam serviços de qualidade | Se tornar um profissional mais versátil |
+|Guilherme Prado | Atender mais clientes afim de construir uma reputação positiva | Seguir com seu objetivo de se tornar um grande profissional da área de tecnologia |
+|Guilherme Prado | Poder encontrar clientes de uma forma mais prática e cômoda | Atender o maior número de pessoas no menor espaço de tempo possível |
+|Karen Rocha | Sentir satisfação ao ver pessoas que passaram sob seus cuidados recuperadas e com qualidade de vida | Retribuição moral e pessoal |
+|Karen Rocha | Localizar mais pessoas necessitadas de cuidados específicos e atenção hospitalar | Ajudar mais pessoas, obter mais experiências e contatos |
+|Luiza Silva | Encontrar pessoas que tenham boas qualificação em serviços de obra | Construção de seus projetos arquitetônicos |
+|Luiza Silva | Conseguir boas parcerias e contratações | Montar um novo time renovado para sua empresa | Montar um novo time renovado para sua empresa | 
+|Paulo Ribeiro | Encontrar profissionais que tenham boas qualificação para apoio de seus profissionais | Aumentar a qualidade de suas produções e o tamanho de sua empresa |
+|Paulo Ribeiro | Aumentar o alcance de suas mídias Sociais | Atrair mais investidores e capital para seus projetos | 
 
 
 ## Requisitos
