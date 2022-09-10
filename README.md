@@ -1,3 +1,6 @@
+
+![image](./src/assets/imgs/jobs.jpg)
+
 # JOBS
 
 `Análise e Desenvolvimento de Sistemas`
@@ -6,7 +9,10 @@
 
 `Segundo Semestre`
 
-Uma plataforma voltada a publicação e consumo de serviços de profissionais autônomos, transformando os "JOBS" em uma experiência mais segura, confiavel e eficiente. 
+## Sobre
+
+Uma plataforma voltada a publicação e consumo de serviços de profissionais autônomos,<br> transformando os "JOBS" em uma experiência mais segura, confiavel e eficiente. 
+
 
 ## Integrantes
 
