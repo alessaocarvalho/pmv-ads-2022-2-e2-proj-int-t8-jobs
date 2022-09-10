@@ -11,21 +11,21 @@
 
 ## Sobre
 
-Uma plataforma voltada a publicação e consumo de serviços de profissionais autônomos,<br> transformando os "JOBS" em uma experiência mais segura, confiavel e eficiente. 
+Esse projeto nasceu da vontade de mudar a forma com que a contratação de serviço ocorre, seja por falta de informação, confiança e  
+visibilidade, muitos profissionais que trabalham por conta própria acabam não obtendo espaço nesse mercado de grandes empresas.
+
+Somos uma plataforma voltada a publicação e consumo de serviços de profissionais autônomos,  
+transformando os "JOBS" em uma experiência mais segura, confiavel e eficiente. 
 
 
 ## Integrantes
-
-* Angelo Rodrigues Pereira 
-* Raul Shinaede De Oliveira
-* Bruno Selas Soares
-* Leonardo Xavier
-* Alisson Anderson De Carvalho 
-* Vinicius Luiz Alves De Oliveira 
+| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://avatars.githubusercontent.com/u/101372729?v=4" width=115><br><sub>Angelo Rodrigues</sub>](https://github.com/Angelorod27) | [<img src="https://avatars.githubusercontent.com/u/103225086?v=4" width=115><br><sub>Leonardo Xavier</sub>](https://github.com/LeoXavier13) | [<img src="https://avatars.githubusercontent.com/u/100442612?v=4" width=115><br><sub>Alisson Anderson</sub>](https://github.com/alessaocarvalho) | [<img src="https://avatars.githubusercontent.com/u/103579574?v=4" width=115><br><sub>Vinicius Luiz</sub>](https://github.com/viniciussluiz) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ## Orientador
 
-* Daniele Carvalho Monteiro Ferreira 
+| [<img src="https://avatars.githubusercontent.com/u/619720?v=4" width=115><br><sub>Daniele Carvalho Monteiro Ferreira</sub>](https://github.com/danicarvalhomf) |
+| :---: |
 
 ## Instruções de utilização
 
