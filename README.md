@@ -1,5 +1,6 @@
 
-![image](./src/assets/imgs/jobs.jpg)
+![Sem Título-2](https://user-images.githubusercontent.com/82043220/189495299-63f52389-3c58-4167-a832-ad321cb5c791.png)
+
 
 # JOBS
 
