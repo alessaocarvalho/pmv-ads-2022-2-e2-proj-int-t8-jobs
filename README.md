@@ -6,7 +6,7 @@
 
 `Segundo Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma plataforma voltada a publicação e consumo de serviços de profissionais autônomos, transformando os "JOBS" em uma experiência mais segura, confiavel e eficiente. 
 
 ## Integrantes
 
