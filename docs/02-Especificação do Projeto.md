@@ -211,4 +211,5 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 O diagrama contempla as principais ligações previstas entre casos de uso e atores e permite detalhar os Requisitos Funcionais identificados na etapa de licitação, descrevendo as principais funcionalidades do sistema e interação dessas funcionalidades com os usuários deste sistema.
 
-![image](https://user-images.githubusercontent.com/101372729/189248726-a1461b43-6c9f-4364-91c5-69e9dc4079fa.png)
+![image](https://user-images.githubusercontent.com/101372729/189460707-41a2cce4-2961-4416-8f9d-ee0c7247c903.png)
+
