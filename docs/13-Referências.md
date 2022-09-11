@@ -1,7 +1,6 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+### LINK PAGÍNA PODER 360 - NÚMERO DE TRABALHADORES AUTÔNOMOS BATE RECORDE NO BRASIL, DIZ IBGE.
+>
+> - https://www.poder360.com.br/brasil/numero-de-trabalhadores-autonomos-bate-recorde-no-brasil-diz-ibge/
+>
