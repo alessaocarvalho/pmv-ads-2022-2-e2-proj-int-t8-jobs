@@ -22,7 +22,7 @@ A figura baixo ilustra o Modelo ER para o sistema proposto.
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![Diagrama ER de banco de dados (pé de galinha) (1)](https://user-images.githubusercontent.com/82043220/193479249-f3515633-8207-4087-b315-868f5c565f47.png)
 
 ## Tecnologias Utilizadas
 
