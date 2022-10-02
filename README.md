@@ -1,9 +1,6 @@
 
 
-![JOBS - GIF](https://user-images.githubusercontent.com/101372729/189541044-71c667d5-4d10-4341-a138-051e6254c76b.gif)
-
-
-
+<img src="https://user-images.githubusercontent.com/101372729/189541044-71c667d5-4d10-4341-a138-051e6254c76b.gif" width="1000">
 
 
 # JOBS
