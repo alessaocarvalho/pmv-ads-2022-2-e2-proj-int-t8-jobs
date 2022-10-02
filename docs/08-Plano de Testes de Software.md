@@ -2,9 +2,20 @@
 
 ## Historico de Revisões 
 
-| DATA | VERSÕES | DESCRIÇÃO | AUTOR | 
-| --- | ---- | ---- | --- |
-| 02/OUT/04| DOC| DOCUMENTO DE SOLUÇÃO| JOBS|
+<table>
+  <tr>
+   <td width="100" align="center"><strong>Data</strong></td>
+   <td width="100" align="center"><strong>Versões</strong></td>
+   <td width="350" align="center"><strong>Descrição</strong></td>
+   <td width="250" align="center"><strong>Autor</strong></td>
+  </tr>
+  <tr>
+   <td align="center">02/10/2022</td>
+   <td align="center">DOC</td>
+   <td align="left">Criação do documento</td>
+   <td align="left">Bruno Selas</td>
+  </tr>
+ </table>
 
 ## Introdução 
 
@@ -49,16 +60,53 @@ Os testes mais críticos serão os testes de banco de dados, que compõe grande 
 
 A tabela abaixo identifica a documentação e disponibilidade usados para desenvolver o plano de testes: 
 
-| Documento | Criado ou Disponivel | Recebido ou Avisado|
-| --------- | ---------------------| -------------------|
-Especificação de Requisitos | Sim | Sim |
-Plano de  Projeto | Sim | Sim |
-Modelo de Analise | Não | Sim | 
-Modelo d Projeto | Não | Não |
-Documento de Arquitetura | Sim | Não |
-Protótipo | Não | Não |
-Manual Usuário | Não | Não |
-Lista de Riscos | Sim | Sim | 
+<table>
+ <tr>
+  <td width="400" align="left">Documento</td>
+  <td width="200" align="center">Criado ou Disponível</td>
+  <td width="200" align="center">Recebido ou Revisado</td>
+ </tr>
+ <tr>
+  <td align="left">Especificação de Requisitos</td>
+  <td align="center">Sim</td>
+  <td align="center">Não</td>
+ </tr>
+  <tr>
+  <td align="left">Plano de Projeto</td>
+  <td align="center">Sim</td>
+  <td align="center">Sim</td>
+ </tr>
+  <tr>
+  <td align="left">Modelo de Análise</td>
+  <td align="center">Não</td>
+  <td align="center">Não</td>
+ </tr>
+  <tr>
+  <td align="left">Modelo de Projeto</td>
+  <td align="center">Não</td>
+  <td align="center">Não</td>
+ </tr>
+  <tr>
+  <td align="left">Documento de Arquitetura</td>
+  <td align="center">Sim</td>
+  <td align="center">Sim</td>
+ </tr>
+  <tr>
+  <td align="left">Protótipo</td>
+  <td align="center">Não</td>
+  <td align="center">Não</td>
+ </tr>
+ <tr>
+  <td align="left">Manual do Usuário</td>
+  <td align="center">Não</td>
+  <td align="center">Não</td>
+ </tr>
+ <tr>
+  <td align="left">Lista de Riscos</td>
+  <td align="center">Sim</td>
+  <td align="center">Sim</td>
+ </tr>
+</table>
 
 ## Requisitos a Testar
 
