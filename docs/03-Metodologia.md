@@ -1,77 +1,77 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para gestão do código fonte do software, é utilizado um processo de controle de fluxo com base no Git Flow apresentado por Vincent Driessen (2010), mostrado na figura na seguir.
 
-O projeto segue a seguinte convenção para o nome de branches:
+![image](https://user-images.githubusercontent.com/101372729/193473345-bee33e04-b0a0-4e71-bbff-68742751d042.png)
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+
+As modificações no código são realizadas em branches separas, sendo:
+
+- `Main`: Como Branch principal
+- `Hotflix`: Para correção de bugs
+- `Feature`: Para novas funcionalidades
+- `Develop`: Para desenvolvimento
+- `Release`: Para empacotar as modificações para o lançamento 
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
+- `documentação`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+- `teste`: teste de funcionalidade
+- `desenvolvimento`: uma nova funcionalidade ou modificação nos módulos existentes
 
 ## Gerenciamento de Projeto
 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para  
+definição do processo de desenvolvimento.
+
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+- **Scrum Master**: [Ângelo Pereira](https://github.com/Angelorod27)
+- **Product Owner**: [Raul Shinaede](https://github.com/RaulShinaede)
+- **Equipe de desenvolvimento**:
+- [Bruno Selas](https://github.com/brunosellas)
+- [Alisson carvalho](https://github.com/alessaocarvalho)
+- [Leonardo Xavier](https://github.com/LeoXavier13)
+- [Vinicius luiz](https://github.com/viniciussluiz)
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:
 
-### Processo
+- Product Backlog: Contém as informações sobre o projeto de maneira geral e sobre os itens a serem executados
+- Sprint Backlog: Contém o detalhamento das tarefas/itens contidos no Product Backlog
+- serem entregues pela equipe do projeto.
+- Em andamento: Contém as tarefas do projeto que estão em andamento.
+- Tarefas Concluídas: Contém todas as tarefas concluídas e prontas para entrega.
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O quadro kanban do grupo no GitHub está disponível através da URL https://github.com/jobs/project é apresentado, na forma atual, na Figura a seguir.
 
-### Ferramentas
+![image](https://user-images.githubusercontent.com/101372729/193473783-e41cf555-f6db-497d-87e2-229ff004121a.png)
 
-As ferramentas empregadas no projeto são:
+**As tarefas são etiquetadas a natureza referente:**
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+|Etiqueta | Descrição | 
+| ---------| --------- |
+| Bug | Erro no Sistema |
+| Documentação| Criação/ Modificação de documentação|
+| Funcionaidade| Imp;ementação | Atualuização de Funcionalidade| 
+| Teste| Teste de Software/Usabilidade|
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+## Relações de Ambientes de Trabalhos 
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito são apresentados na tabela que se segue:
+
+| Ambiente | Plaforma | Link de acesso |
+| ----- | --------- | -------- |
+| Repositório de código fonte | GitHub | [Repositorio-github-JOBS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t8-jobs)|
+| Documento do Projeto | GitHub | [Documentção GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t8-jobs/tree/main/docs)|
+| Projeto de interface e Wireframes | Marvel | [Wireframe-JOBS](https://marvelapp.com/prototype/65hdfcd)
+| Gerenciamento do Projeto | GitHub | [Gerenciamento-GitHub](https://github.com/jobs/project)
+
+
+
