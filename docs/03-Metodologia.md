@@ -28,18 +28,17 @@ definição do processo de desenvolvimento.
 - **Scrum Master**: [Ângelo Pereira](https://github.com/Angelorod27)
 - **Product Owner**: [Raul Shinaede](https://github.com/RaulShinaede)
 - **Equipe de desenvolvimento**:
-- [Bruno Selas](https://github.com/brunosellas)
-- [Alisson carvalho](https://github.com/alessaocarvalho)
-- [Leonardo Xavier](https://github.com/LeoXavier13)
-- [Vinicius luiz](https://github.com/viniciussluiz)
+  - [Bruno Selas](https://github.com/brunosellas)
+  - [Alisson carvalho](https://github.com/alessaocarvalho)
+  - [Leonardo Xavier](https://github.com/LeoXavier13)
+  - [Vinicius luiz](https://github.com/viniciussluiz)
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:
 
-- Product Backlog: Contém as informações sobre o projeto de maneira geral e sobre os itens a serem executados
-- Sprint Backlog: Contém o detalhamento das tarefas/itens contidos no Product Backlog
-- serem entregues pela equipe do projeto.
-- Em andamento: Contém as tarefas do projeto que estão em andamento.
-- Tarefas Concluídas: Contém todas as tarefas concluídas e prontas para entrega.
+- `Product Backlog`: Contém as informações sobre o projeto de maneira geral e sobre os itens a serem executados
+- `Sprint Backlog`: Contém o detalhamento das tarefas/itens contidos no Product Backlog para serem entregues pela equipe do projeto.
+- `Em andamento`: Contém as tarefas do projeto que estão em andamento.
+- `Tarefas Concluídas`: Contém todas as tarefas concluídas e prontas para entrega.
 
 O quadro kanban do grupo no GitHub está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/105/views/1 é apresentado, na forma atual, na Figura a seguir.
 
