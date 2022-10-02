@@ -59,7 +59,7 @@ O quadro kanban do grupo no GitHub está disponível através da URL https://git
 | ---------| --------- |
 | Bug | Erro no Sistema |
 | Documentação| Criação/ Modificação de documentação|
-| Funcionaidade| Imp;ementação | Atualuização de Funcionalidade| 
+| Funcionaidade| Implementação | Atualuização de Funcionalidade| 
 | Teste| Teste de Software/Usabilidade|
 
 ## Relações de Ambientes de Trabalhos 
