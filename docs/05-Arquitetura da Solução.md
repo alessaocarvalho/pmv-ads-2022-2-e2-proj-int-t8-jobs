@@ -1,10 +1,13 @@
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Nessa seção vamos detalhar como será o modelo dos objetos e seus relacionamentos, nesse processo de análise, seram utilizados diagramas UML para
+uma maior visibilidade das regras de negócio, que vão auxiliar o processo de implementação do sistema proposto.
 
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+
+A figura baixo ilustra o diagrama de classes para o sistema proposto.
 
 ![JOBS](https://user-images.githubusercontent.com/82043220/193475772-f4300d1d-e4bf-4a7b-a621-c21d9826198f.png)
 
@@ -12,11 +15,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+A figura baixo ilustra o Modelo ER para o sistema proposto.
+![image](https://user-images.githubusercontent.com/82043220/193476457-d1ac7491-4f55-4dee-91d1-f6feded6b117.png)
 
 ## Projeto da Base de Dados
 
