@@ -9,20 +9,21 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 A figura baixo ilustra o diagrama de classes para o sistema proposto.
 
-![JOBS](https://user-images.githubusercontent.com/82043220/193475772-f4300d1d-e4bf-4a7b-a621-c21d9826198f.png)
+<img src="https://user-images.githubusercontent.com/82043220/193475772-f4300d1d-e4bf-4a7b-a621-c21d9826198f.png" width="1000">
 
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 A figura baixo ilustra o Modelo ER para o sistema proposto.
-![image](https://user-images.githubusercontent.com/82043220/193476457-d1ac7491-4f55-4dee-91d1-f6feded6b117.png)
+
+<img src="https://user-images.githubusercontent.com/82043220/193476457-d1ac7491-4f55-4dee-91d1-f6feded6b117.png" width="1000">
 
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
-![Diagrama ER de banco de dados (pé de galinha) (1)](https://user-images.githubusercontent.com/82043220/193479249-f3515633-8207-4087-b315-868f5c565f47.png)
+<img src="https://user-images.githubusercontent.com/82043220/193479249-f3515633-8207-4087-b315-868f5c565f47.png" width="1000">
 
 ## Tecnologias Utilizadas
 
