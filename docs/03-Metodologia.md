@@ -13,18 +13,10 @@ Para gestão do código fonte do software, é utilizado um processo de controle 
 As modificações no código são realizadas em branches separas, sendo:
 
 - `Main`: Como Branch principal
-- `Hotflix`: Para correção de bugs
+- `Hotfix`: Para correção de bugs
 - `Feature`: Para novas funcionalidades
 - `Develop`: Para desenvolvimento
 - `Release`: Para empacotar as modificações para o lançamento 
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentação`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `teste`: teste de funcionalidade
-- `desenvolvimento`: uma nova funcionalidade ou modificação nos módulos existentes
 
 ## Gerenciamento de Projeto
 
@@ -57,10 +49,10 @@ O quadro kanban do grupo no GitHub está disponível através da URL https://git
 
 |Etiqueta | Descrição | 
 | ---------| --------- |
-| Bug | Erro no Sistema |
-| Documentação| Criação/ Modificação de documentação|
-| Funcionalidade| Implementação | Atualização de Funcionalidade| 
-| Teste| Teste de Software/Usabilidade|
+| `bug` | Erro no Sistema |
+| `documentação`| Criação/ Modificação de documentação|
+| `funcionalidade`| Implementação | Atualização de Funcionalidade| 
+| `teste`| Teste de Software/Usabilidade|
 
 ## Relações de Ambientes de Trabalhos 
 
