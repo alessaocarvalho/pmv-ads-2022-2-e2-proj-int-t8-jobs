@@ -49,7 +49,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Em andamento: Contém as tarefas do projeto que estão em andamento.
 - Tarefas Concluídas: Contém todas as tarefas concluídas e prontas para entrega.
 
-O quadro kanban do grupo no GitHub está disponível através da URL https://github.com/jobs/project é apresentado, na forma atual, na Figura a seguir.
+O quadro kanban do grupo no GitHub está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/105/views/1 é apresentado, na forma atual, na Figura a seguir.
 
 ![image](https://user-images.githubusercontent.com/101372729/193473783-e41cf555-f6db-497d-87e2-229ff004121a.png)
 
@@ -71,7 +71,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte | GitHub | [Repositorio-github-JOBS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t8-jobs)|
 | Documento do Projeto | GitHub | [Documentção GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t8-jobs/tree/main/docs)|
 | Projeto de interface e Wireframes | Marvel | [Wireframe-JOBS](https://marvelapp.com/prototype/65hdfcd)
-| Gerenciamento do Projeto | GitHub | [Gerenciamento-GitHub](https://github.com/jobs/project)
+| Gerenciamento do Projeto | GitHub | [Gerenciamento-GitHub](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/105)
 
 
 
