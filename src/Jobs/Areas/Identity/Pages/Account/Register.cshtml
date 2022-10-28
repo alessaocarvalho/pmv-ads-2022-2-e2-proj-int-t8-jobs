@@ -1,0 +1,50 @@
+﻿@page
+@model RegisterModel
+
+@{
+    ViewData["Title"] = "Bem vindo à página de cadastro!";
+}
+
+<style>
+    main {
+        background-image: linear-gradient(to left,#722f37, #F7B4A7);
+    }
+</style>
+<div class="container">
+    <div class="d-flex justify-content-center flex-row w-100 mb-5">
+        <h1 class="shadow p-3 mb-2 bg-body rounded" style="color: #94DDDE">@ViewData["Title"]</h1>
+        
+    </div>
+    <div class="d-flex justify-content-center flex-row w-100 mb-5">
+        <img src="~/assets/jobs.gif" class="h-50 w-50 img-fluid" alt="img-jobs" />
+      </div>
+
+    <div class="d-flex justify-content-center flex-row w-100 mb-5">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h4 class="app-color-light-blue shadow p-3 mb-2 bg-body rounded"><strong>Cadastre-se para ter acesso a nossa plataforma:</strong></h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.ConfirmPassword"></label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-info btn-lg w-100">Cadastrar</button>
+        </form>
+    </div>
+  
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
