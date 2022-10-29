@@ -1,6 +1,6 @@
 # Registro de Testes de Software
 
-Este é um registro de testes executados para caso de teste definido no Plano de Testes de Software, nele estão os registros das evidências dos testes feitos na aplicação pela equipe, e indicações de que os critérios de êxito foram alcançados ou não. A tabela será preenchida de acordo com o andamento das etapas do projeto.
+Este é um registro de testes executados para caso de teste definido no <a href="docs/08-Plano de Testes de Software.md">Plano de Testes de Software</a>, nele estão os registros das evidências dos testes feitos na aplicação pela equipe, e indicações de que os critérios de êxito foram alcançados ou não. A tabela será preenchida de acordo com o andamento das etapas do projeto.
 
 <table>
     <tr>
