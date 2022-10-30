@@ -2,23 +2,31 @@
     --theme-colors-blue: #2B4B82;
     --theme-colors-light-blue: #94DDDE;
     --theme-colors-melon: #F7B4A7;
-    --theme-colors-pink: #F0ABC1
+    --theme-colors-pink: #F0ABC1;
 }
 
 /* app-styles */
 
+
 .app-bg-blue {
     background-color: var(--theme-colors-blue) !important;
+}
+
+.app-fill-blue {
+    fill: var(--theme-colors-blue);
 }
 
 .app-color-melon {
     color: var(--theme-colors-melon);
 }
 
+.app-color-blue {
+    color: var(--theme-colors-blue);
+}
+
 .app-color-light-blue {
     color: var(--theme-colors-light-blue);
 }
-
 /* app-navbar */
 
 .app-navbar .navbar-brand {
@@ -82,7 +90,7 @@ a.navbar-brand {
 }
 
 a {
-  color: #fff;
+    color: #1b6ec2;
 }
 
 .btn-primary {
@@ -117,10 +125,6 @@ html {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
 
 html {
   position: relative;
@@ -136,4 +140,9 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.footer a:hover {
+    color: var(--theme-colors-light-blue);
+    text-decoration: none;
 }
