@@ -1,10 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Bem vindo";
 }
 
 <div class="w-100 home-main">
     <header class="app-home-header" style="height: 400px;">
-        <div class="carousel slide" data-ride="carousel">
+        <div class="carousel slid w-100" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item align-self-end">
                     <div class="p-4 p-md-5 mb-4 rounded">
@@ -29,7 +29,7 @@
                         <div class="col-md-6 px-0">
                             <h1 class="display-5 app-color-melon fst-italic">Comece hoje</h1>
                             <p class="lead app-color-light-blue my-3">Comece hoje a receber propostas e avaliações por seus serviços.<br />Você está há alguns cliques do seu próximo Job.</p>
-                            <button class="app-register-button">Cadastrar</button>
+                            <div class="app-register-button"><a asp-area="Identity" asp-page="/Account/Login">Cadastrar</a></div>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
             <div class="pl-5 col-lg-10">
                 <section class="app-service-preview-container">
                     <h3 class="app-service-preview-title">Categorias</h3>
-                    <ul class="list-group list-group-horizontal list-unstyled h-100">
+                    <ul class="app-service-preview-items">
                         <li class="app-service-preview-item">
                             <img src="~/assets/cat-marcenaria.jpeg" />
                             <div class="app-service-preview-item-slide">
@@ -81,10 +81,10 @@
                                 <img src="~/assets/cat-domestico-icon.png"/>
                             </div>
                         </li>
-                        <li class="app-see-all-container">
-                            <button class="app-see-all-button">Ver todas</button>
-                        </li>
                     </ul>
+                    <div class="app-see-all-container">
+                        <button class="app-see-all-button">Ver todas</button>
+                    </div>
                 </section>
 
                 <section class="app-service-preview-container">
@@ -92,7 +92,7 @@
                     <p>Nenhuma informação encontrada</p>
                 </section>
 
-                <section>
+                <section style="margin-top: 100px;">
                     <div class="row d-flex justify-content-center" style="background: #fef3f7;">
                         <div class="col-md-10 col-xl-8 text-center">
                             <h3 class="mb-4">Depoimentos</h3>
