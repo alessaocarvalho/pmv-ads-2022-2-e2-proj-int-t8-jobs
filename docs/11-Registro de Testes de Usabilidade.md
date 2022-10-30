@@ -122,3 +122,80 @@ o sistema apresentou a informação após o erro.</p>
     <th></th>
 </tr>
 </table>
+
+## Questionário SUS (System Usability Scape)
+<p>Nesta sessão apresentamos uma tabela com pontos a serem melhorados na usabilidade da apliação de acordo com os testes realizados com usuários.</p>
+<table>
+<tr>
+    <th>Nº</th>
+    <th>Item</th>
+    <th>Resposta dos Usuários</th>
+    <th>Resposta Convertida</th>
+</tr>
+<tr>
+    <th>1</th>
+    <th>Eu acho que gostaria de usar esse sistema com frequência.</th>
+    <th>5</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th>2</th>
+    <th>Eu acho o sistema desnecessariamente complexo.</th>
+    <th>1</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th>3</th>
+    <th>Eu achei o sistema fácil de usar.</th>
+    <th>5</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th>4</th>
+    <th>Eu acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos para usar o sistema.</th>
+    <th>1</th>
+    <th>4 - 1 = 3</th>
+</tr>
+<tr>
+    <th>5</th>
+    <th>Eu acho que as várias funções do sistema estão muito bem integradas.</th>
+    <th>4</th>
+    <th>4 - 1 = 3</th>
+</tr>
+<tr>
+    <th>6</th>
+    <th>Eu acho que o sistema apresenta muita inconsistência.</th>
+    <th>2</th>
+    <th>5 - 2 = 3</th>
+</tr>
+<tr>
+    <th>7</th>
+    <th>Eu imagino que as pessoas aprenderão como usar esse sistema rapidamente.</th>
+    <th>5</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th>8</th>
+    <th>Eu achei o sistema atrapalhado de usar.</th>
+    <th>1</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th>9</th>
+    <th>Eu me senti confiante ao usar o sistema.</th>
+    <th>5</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th>10</th>
+    <th>Eu precisei aprender várias coisas novas antes de conseguir usar o sistema.</th>
+    <th>1</th>
+    <th>5 - 1 = 4</th>
+</tr>
+<tr>
+    <th></th>
+    <th>Cálculo do SUS-score= 38*2,5=95</th>
+    <th></th>
+    <th>38</th>
+</tr>
+</table>
