@@ -194,7 +194,7 @@ o sistema apresentou a informação após o erro.</p>
 </tr>
 <tr>
     <th></th>
-    <th>Cálculo do SUS-score= 38*2,5=95</th>
+    <th>Cálculo do SUS-score = 38 * 2,5 = 95</th>
     <th></th>
     <th>38</th>
 </tr>
