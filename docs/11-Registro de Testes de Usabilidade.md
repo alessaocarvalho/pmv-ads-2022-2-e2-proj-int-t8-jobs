@@ -45,6 +45,8 @@ o sistema apresentou a informação após o erro.</p>
 <hr>
 
 #### Leonardo Xavier
+![image](https://user-images.githubusercontent.com/100442612/198895100-c1ce1d37-746a-4998-87e3-646a7fce86ed.png)
+![image](https://user-images.githubusercontent.com/100442612/198895153-bfb2e60a-a854-44d0-a49c-9447cf82fe8d.png)
 <p>Durante o cadastro, o usuário inicialmente tentou cadastrar uma senha e somente após a tentativa de cadastro, o sistema retornou a mensagem dos requisitos mínimos para registro de senha. Após isso, o usuário tentou realizar o cadastro novamente e obteve sucesso.</p>
 <ul>
     <li>Pontos positivos:</li>
@@ -54,6 +56,8 @@ o sistema apresentou a informação após o erro.</p>
     <p>- Usuário não sabia os requisitos mínimos para cadastrar senha até o momento em que 
 o sistema apresentou a informação após o erro.</p>
 </ul>
+
+![image](https://user-images.githubusercontent.com/100442612/198895176-cab6c709-1996-4bcb-82e7-f4aa0ff5090d.png)
 <p>Após cadastro, o usuário utilizou a tela de Login e intuitivamente inseriu os dados previamente cadastrados nos locais correspondentes.</p>
 <ul>
     <li>Pontos positivos:</li>
