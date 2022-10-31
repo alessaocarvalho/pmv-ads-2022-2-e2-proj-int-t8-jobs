@@ -21,8 +21,8 @@ transformando os "JOBS" em uma experiência mais segura, confiavel e eficiente.
 
 
 ## Integrantes
-| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://avatars.githubusercontent.com/u/101372729?v=4" width=115><br><sub>Angelo Rodrigues</sub>](https://github.com/Angelorod27) | [<img src="https://avatars.githubusercontent.com/u/103225086?v=4" width=115><br><sub>Leonardo Xavier</sub>](https://github.com/LeoXavier13) | [<img src="https://avatars.githubusercontent.com/u/100442612?v=4" width=115><br><sub>Alisson Carvalho</sub>](https://github.com/alessaocarvalho) | [<img src="https://avatars.githubusercontent.com/u/103579574?v=4" width=115><br><sub>Vinicius Luiz</sub>](https://github.com/viniciussluiz) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://avatars.githubusercontent.com/u/103225086?v=4" width=115><br><sub>Leonardo Xavier</sub>](https://github.com/LeoXavier13) | [<img src="https://avatars.githubusercontent.com/u/100442612?v=4" width=115><br><sub>Alisson Carvalho</sub>](https://github.com/alessaocarvalho) | [<img src="https://avatars.githubusercontent.com/u/103579574?v=4" width=115><br><sub>Vinicius Luiz</sub>](https://github.com/viniciussluiz) |
+| :---: | :---: | :---: | :---: | :---: |
 
 ## Orientador
 
