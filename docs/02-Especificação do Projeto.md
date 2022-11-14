@@ -272,6 +272,8 @@ Sendo assim, o Quadro abaixo descreve o escopo funcional do projeto definindo a 
 |RF-009|A plataforma deve notificar o anunciante sobre a solicitação de serviço.  | ALTA | 
 |RF-010|O Anunciante deve conseguir rejeitar um serviço caso não queira executa-lo.    | ALTA |
 |RF-011|O Usuário deve conseguir avaliar serviços contratados da plataforma.   | MÉDIA | 
+|RF-012|O Site deve conter uma página principal | ALTA |
+|RF-013|O Site deve conter uma página de login | ALTA |
 
 ### Requisitos não Funcionais
 Os requisitos não funcionais não estão relacionados diretamente com os serviços específicos do sistema oferecidos aos seus usuários. Eles estão relacionados com o nível de serviço esperado para o melhor funcionamento do software como um todo. O descritivo abaixo representa o escopo não funcional que a plataforma atenderá:

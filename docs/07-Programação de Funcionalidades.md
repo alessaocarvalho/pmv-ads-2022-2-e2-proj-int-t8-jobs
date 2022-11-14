@@ -1,28 +1,39 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
-
 Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-001| O usuário deve conseguir criar conta na plataforma | Register.cshtml | 
+|RF-012| O Site deve conter uma página principal | Home\Index.cshtml, css\Home.css |
+|RF-013| O Site deve conter uma página de login | Login.cshtml |
+
+## RF-001 - Página de registro
+
+É a página onde o usuário pode se cadastrar no site.
+
+![image](https://user-images.githubusercontent.com/82043220/198896649-7341c74e-8dd7-4571-b482-a6c17c64a255.png)
+
+# RF-012 - Página home
+
+É a página principal da aplicação.
+
+![image](https://user-images.githubusercontent.com/82043220/198896820-98dc098b-b5b6-41c3-b0a1-15deb30842a4.png)
+
+# RF-013 Página de login
+
+é a página onde o usuário pode logar.
+
+![image](https://user-images.githubusercontent.com/82043220/198896895-710ae15f-8155-4890-977d-0520067bde48.png)
 
 # Instruções de acesso
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+Para rodar a aplicação localmente primeiro certifique-se,
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+- De baixar o projeto nesse [link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t8-jobs/archive/refs/heads/main.zip).
+- Ter o [Docker](https://www.docker.com/products/docker-desktop/) instalado na máquina.
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+após baixar o projeto e abrir no [Visual Studio](https://visualstudio.microsoft.com/pt-br/vs/community/), execute o projeto.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+

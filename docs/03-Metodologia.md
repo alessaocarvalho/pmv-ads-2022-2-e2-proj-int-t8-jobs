@@ -25,7 +25,6 @@ definição do processo de desenvolvimento.
 
 ### Divisão de Papéis
 
-- **Scrum Master**: [Ângelo Pereira](https://github.com/Angelorod27)
 - **Product Owner**: [Raul Shinaede](https://github.com/RaulShinaede)
 - **Equipe de desenvolvimento**:
   - [Bruno Selas](https://github.com/brunosellas)

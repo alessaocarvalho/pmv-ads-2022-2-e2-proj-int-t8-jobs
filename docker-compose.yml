@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  jobs:
+    image: ${DOCKER_REGISTRY-}jobs
+    build:
+      context: .
+      dockerfile: src/Jobs/Dockerfile
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    hostname: 'sqlserver'
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: "BigPassw0rd"
+    volumes:
+      - ./data/mssql:/var/opt/mssql3
+    ports:
+      - '1433:1433'
+    expose:
+      - 1433
