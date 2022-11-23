@@ -8,7 +8,7 @@
 <style>
     main {
         background-image: linear-gradient(to right, #2B4B82, #F7B4A7);
-        height:100vh;
+        height: 100vh;
     }
 </style>
 <div class="container">
@@ -62,21 +62,18 @@
                 <h4 class="app-color-light-blue shadow p-3 mb-2 bg-body rounded mb-4"><strong>Você está prestes a descobrir um mundo de possibilidades.</strong></h4>
 
                 @{
-                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                    {
+                    if ((Model.ExternalLogins?.Count ?? 0) == 0) {
                         <div>
                             <p>
                                 <img class="w-75 h-75" src="~/assets/login-image.png" alt="img-login" />
                             </p>
                         </div>
                     }
-                    else
-                    {
+                    else {
                         <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
                             <div>
                                 <p>
-                                    @foreach (var provider in Model.ExternalLogins)
-                                    {
+                                    @foreach (var provider in Model.ExternalLogins) {
                                         <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
                                     }
                                 </p>
