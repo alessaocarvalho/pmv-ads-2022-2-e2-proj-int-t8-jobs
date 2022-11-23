@@ -3,36 +3,34 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Jobs</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/Home.css"/>
+    <link rel="stylesheet" href="~/css/site.css"/>
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg app-navbar app-bg-blue">
+        <nav class="navbar fixed-top navbar-expand-lg app-navbar app-bg-blue">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img style="height: 60px" src="~/assets/jobs.gif"/></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img style="height: 60px" src="~/assets/jobs.gif" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between" id="navbarSupportedContent">
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
                         <li class="nav-item mr-2"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Anunciar</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Buscar</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Contato</a></li>
-                        <partial name="_LoginPartial" /> 
+                        <li class="nav-item mr-2"><a class="nav-link" asp-area="" asp-controller="Works" asp-action="Create">Anunciar</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" asp-area="" asp-controller="Works" asp-action="Index">Buscar</a></li>
+                        <partial name="_LoginPartial" />
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div>
-        <main role="main" class="position-relative">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="footer app-bg-blue">
+    <main role="main" style="margin-top: 86px;">
+        @RenderBody()
+    </main>
+
+    <footer class="app-footer app-bg-blue">
         <div class="container app-color-melon">
             &copy; 2022 - Inc. All rights reserved Job's - <a class="app-color-light-blue" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
         </div>
@@ -40,6 +38,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/Work.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

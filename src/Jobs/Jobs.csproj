@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-Jobs-604ECD4C-3DAB-48D8-9813-B3AE3460C906</UserSecretsId>
+    <UserSecretsId>aspnet-Jobs-2E6C5B03-D68E-4B7D-9D06-670CCE066DAF</UserSecretsId>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
   </PropertyGroup>
 

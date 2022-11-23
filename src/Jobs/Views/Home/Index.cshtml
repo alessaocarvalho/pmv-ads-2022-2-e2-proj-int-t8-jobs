@@ -1,10 +1,14 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Bem Vindo | Jobs";
 }
 
-<div class="w-100 home-main">
-    <header class="app-home-header" style="height: 400px;">
-        <div class="carousel slide" data-ride="carousel">
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" />
+}
+
+<div class="w-100 app-bg-image">
+    <header class="app-home-header d-flex flex-row position-relative justify-content-center" style="height: 400px;">
+        <div class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item align-self-end">
                     <div class="p-4 p-md-5 mb-4 rounded">
@@ -29,7 +33,7 @@
                         <div class="col-md-6 px-0">
                             <h1 class="display-5 app-color-melon fst-italic">Comece hoje</h1>
                             <p class="lead app-color-light-blue my-3">Comece hoje a receber propostas e avaliações por seus serviços.<br />Você está há alguns cliques do seu próximo Job.</p>
-                            <button class="app-register-button">Cadastrar</button>
+                            <button class="app-home-register-button">Cadastrar</button>
                         </div>
                     </div>
                 </div>
@@ -42,164 +46,117 @@
             </symbol>
         </svg>
 
-        <div class="app-search-container">
-            <form class="app-search-form">
-                <input class="app-search-input" type="text" placeholder="Search..." name="search">
-                <button class="app-search-button" type="submit">
-                    <svg class="app-search-button-icon" width="24" height="24">
+        <div class="app-home-search-container">
+            <form class="app-home-search-form" asp-action="Search" asp-controller="Works">
+                <input name="searchParam" class="app-home-search-input" type="text" placeholder="Search...">
+                <button class="app-home-search-button" type="submit">
+                    <svg class="app-home-search-button-icon" width="24" height="24">
                         <use xlink:href="#search" />
                     </svg>
                 </button>
             </form>
         </div>
-    </header>
 
-    <div class="container-fluid p-0">
-        <div class="row w-100 m-0">
-            <div class="pl-5 col-lg-10">
-                <section class="app-service-preview-container">
-                    <h3 class="app-service-preview-title">Categorias</h3>
-                    <ul class="list-group list-group-horizontal list-unstyled h-100">
-                        <li class="app-service-preview-item">
-                            <img src="~/assets/cat-marcenaria.jpeg" />
-                            <div class="app-service-preview-item-slide">
-                                <h4>Marcenaria</h4>
-                                <img src="~/assets/cat-marcenaria-icon.png"/>
-                            </div>
+    </header>
+    <div class="container" style="background-color: #fef7f3;">
+
+        <section class="py-5">
+            <div class="row d-flex justify-content-center" style="background: #fef7f3;">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h3 class="mb-4">Depoimentos</h3>
+                    <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                        Abaixo estão alguns depoimentos de pessoas que usaram nosso site e viram o potencial que temos de mudar o mundo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center" style="background: #fef7f3;">
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                             class="rounded-circle shadow-1-strong" width="150" height="150" />
+                    </div>
+                    <h5 class="mb-3">Maria Smantha</h5>
+                    <h6 class="text-primary mb-3">Web Developer</h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>Eu tinha muita dificuldade de pegar serviços por trabalhar sozinha, mais quando encontrei esse site
+                        começei a conseguir muito mais trabalhos.
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
                         </li>
-                        <li class="app-service-preview-item">
-                            <img src="~/assets/cat-serralheria.jpg" />
-                            <div class="app-service-preview-item-slide">
-                                <h4>Serralheria</h4>
-                                <img src="~/assets/cat-serralheria-icon.png"/>
-                            </div>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
                         </li>
-                        <li class="app-service-preview-item">
-                            <img src="~/assets/cat-domestico.jpg" />
-                            <div class="app-service-preview-item-slide">
-                                <h4>Doméstico</h4>
-                                <img src="~/assets/cat-domestico-icon.png"/>
-                            </div>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
                         </li>
-                        <li class="app-see-all-container">
-                            <button class="app-see-all-button">Ver todas</button>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star-half-alt fa-sm text-warning"></i>
                         </li>
                     </ul>
-                </section>
-
-                <section class="app-service-preview-container">
-                    <h3 class="app-service-preview-title">Mais buscados</h3>
-                    <p>Nenhuma informação encontrada</p>
-                </section>
-
-                <section>
-                    <div class="row d-flex justify-content-center" style="background: #fef3f7;">
-                        <div class="col-md-10 col-xl-8 text-center">
-                            <h3 class="mb-4">Depoimentos</h3>
-                            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-                                Abaixo estão alguns depoimentos de pessoas que usaram nosso site e viram o potencial que temos de mudar o mundo.
-                            </p>
-                        </div>
+                </div>
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                             class="rounded-circle shadow-1-strong" width="150" height="150" />
                     </div>
-
-                    <div class="row text-center" style="background: #fef3f7;">
-                        <div class="col-md-4 mb-5 mb-md-0">
-                            <div class="d-flex justify-content-center mb-4">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                                     class="rounded-circle shadow-1-strong" width="150" height="150" />
-                            </div>
-                            <h5 class="mb-3">Maria Smantha</h5>
-                            <h6 class="text-primary mb-3">Web Developer</h6>
-                            <p class="px-xl-3">
-                                <i class="fas fa-quote-left pe-2"></i>Eu tinha muita dificuldade de pegar serviços por trabalhar sozinha, mais quando encontrei esse site
-                                começei a conseguir muito mais trabalhos.
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center mb-0">
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star-half-alt fa-sm text-warning"></i>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 mb-5 mb-md-0">
-                            <div class="d-flex justify-content-center mb-4">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-                                     class="rounded-circle shadow-1-strong" width="150" height="150" />
-                            </div>
-                            <h5 class="mb-3">Lisa Cudrow</h5>
-                            <h6 class="text-primary mb-3">Graphic Designer</h6>
-                            <p class="px-xl-3">
-                                <i class="fas fa-quote-left pe-2"></i>Eu amei a ideia desse site, é simples e muito útil.
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center mb-0">
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 mb-0">
-                            <div class="d-flex justify-content-center mb-4">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-                                     class="rounded-circle shadow-1-strong" width="150" height="150" />
-                            </div>
-                            <h5 class="mb-3">John Smith</h5>
-                            <h6 class="text-primary mb-3">Marketing Specialist</h6>
-                            <p class="px-xl-3">
-                                <i class="fas fa-quote-left pe-2"></i>Cara eu não sabia como era fácil achar trabalho, agora com o Jobs fica super simples pegar uns por fora.
-                            </p>
-                            <ul class="list-unstyled d-flex justify-content-center mb-0">
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="fas fa-star fa-sm text-warning"></i>
-                                </li>
-                                <li>
-                                    <i class="far fa-star fa-sm text-warning"></i>
-                                </li>
-                            </ul>
-                        </div>
+                    <h5 class="mb-3">Lisa Cudrow</h5>
+                    <h6 class="text-primary mb-3">Graphic Designer</h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>Eu amei a ideia desse site, é simples e muito útil.
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                             class="rounded-circle shadow-1-strong" width="150" height="150" />
                     </div>
-                </section>
+                    <h5 class="mb-3">John Smith</h5>
+                    <h6 class="text-primary mb-3">Marketing Specialist</h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>Cara eu não sabia como era fácil achar trabalho, agora com o Jobs fica super simples pegar uns por fora.
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col-lg-2 d-block p-0">
-                <aside class="app-news">
-                    <section class="app-new-container">
-                        <img src="~/assets/news-new-feature.jpg"/>
-                        <p>Estamos trabalhando em novas funcionalidades do sistema, Aguardem !! '0'</p>
-                    </section>
-                </aside>
-            </div>
-        </div>
+        </section>
     </div>
 </div>
