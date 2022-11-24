@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 
-namespace Jobs.Entities {
+namespace Jobs.Entities
+{
     public class Image {
         public static Image FromFormFile(IFormFile formFile) {
 

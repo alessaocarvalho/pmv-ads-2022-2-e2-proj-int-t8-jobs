@@ -33,7 +33,7 @@
                         <div class="col-md-6 px-0">
                             <h1 class="display-5 app-color-melon fst-italic">Comece hoje</h1>
                             <p class="lead app-color-light-blue my-3">Comece hoje a receber propostas e avaliações por seus serviços.<br />Você está há alguns cliques do seu próximo Job.</p>
-                            <button class="app-home-register-button">Cadastrar</button>
+                            <a type="button" class="app-home-register-button" style="border-radius: 10px" asp-area="Identity" asp-page="/Account/Register">Cadastrar</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 
         <div class="app-home-search-container">
             <form class="app-home-search-form" asp-action="Search" asp-controller="Works">
-                <input name="searchParam" class="app-home-search-input" type="text" placeholder="Search...">
+                <input name="searchParam" class="app-home-search-input" type="text" placeholder="O que você está procurando?">
                 <button class="app-home-search-button" type="submit">
                     <svg class="app-home-search-button-icon" width="24" height="24">
                         <use xlink:href="#search" />
