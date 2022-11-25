@@ -102,6 +102,7 @@ namespace Jobs.Controllers
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Phone = user.PhoneNumber,
+                UserJob = user.UserJob,
                 UserBio = user.UserBio,
                 AddressLine = user.AddressLine,
                 AdditionalAddress = user.AdditionalAddress,
@@ -125,6 +126,7 @@ namespace Jobs.Controllers
                 user.UserName = model.Email;
                 user.NormalizedUserName = model.Email.ToUpper();
                 user.PhoneNumber = model.Phone;
+                user.UserJob = model.UserJob;
                 user.UserBio = model.UserBio;
                 user.AddressLine = model.AddressLine;
                 user.AdditionalAddress = model.AdditionalAddress;
@@ -156,6 +158,7 @@ namespace Jobs.Controllers
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Phone = user.PhoneNumber,
+                UserJob = user.UserJob,
                 UserBio = user.UserBio,
                 AddressLine = user.AddressLine,
                 AdditionalAddress = user.AdditionalAddress,

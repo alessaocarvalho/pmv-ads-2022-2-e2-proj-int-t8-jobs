@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Jobs.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221123124547_ProfileSystemAdded")]
+    [Migration("20221125212846_ProfileSystemAdded")]
     partial class ProfileSystemAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -310,6 +310,10 @@ namespace Jobs.Data.Migrations
                     b.Property<string>("UserBio")
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("UserJob")
+                        .HasMaxLength(32)
+                        .HasColumnType("nvarchar(32)");
 
                     b.Property<string>("ZipCode")
                         .HasMaxLength(8)

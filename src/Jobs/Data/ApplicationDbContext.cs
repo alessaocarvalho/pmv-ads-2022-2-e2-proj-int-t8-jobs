@@ -25,6 +25,7 @@ namespace Jobs.Data
         {
             builder.Property(u => u.FirstName).HasMaxLength(32);
             builder.Property(u => u.LastName).HasMaxLength(32);
+            builder.Property(u => u.UserJob).HasMaxLength(32);
             builder.Property(u => u.UserBio).HasMaxLength(500);
             builder.Property(u => u.AddressLine).HasMaxLength(32);
             builder.Property(u => u.AdditionalAddress).HasMaxLength(32);

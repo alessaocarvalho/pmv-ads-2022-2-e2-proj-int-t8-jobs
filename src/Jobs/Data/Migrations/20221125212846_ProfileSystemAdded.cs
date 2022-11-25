@@ -70,6 +70,13 @@ namespace Jobs.Data.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
+                name: "UserJob",
+                table: "AspNetUsers",
+                type: "nvarchar(32)",
+                maxLength: 32,
+                nullable: true);
+
+            migrationBuilder.AddColumn<string>(
                 name: "ZipCode",
                 table: "AspNetUsers",
                 type: "nvarchar(8)",
@@ -113,6 +120,10 @@ namespace Jobs.Data.Migrations
 
             migrationBuilder.DropColumn(
                 name: "UserBio",
+                table: "AspNetUsers");
+
+            migrationBuilder.DropColumn(
+                name: "UserJob",
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(

@@ -14,6 +14,9 @@ namespace Jobs.Areas.Identity.Data
         public string LastName { get; set; }
 
         [PersonalData]
+        public string UserJob { get; set; }
+
+        [PersonalData]
         public string UserBio { get; set; }
 
         [PersonalData]

@@ -28,37 +28,25 @@
                                         <div class="row">
                                             <div class="col-md-6 mb-4 pb-2">
                                                 <div class="form-outline">
-                                                    <input asp-for="FirstName" type="text" id="form3Examplev3" class="form-control form-control-lg" />
+                                                    <input asp-for="FirstName" type="text" id="form3Examplev3" class="form-control form-control-lg" placeholder="Primeiro Nome" />
                                                     <label asp-for="FirstName" class="form-label" for="form3Examplev3">Nome</label>
                                                     <span asp-validation-for="FirstName" class="text-danger"></span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 mb-4 pb-2">
                                                 <div class="form-outline">
-                                                    <input asp-for="LastName" type="text" id="form3Examplev3" class="form-control form-control-lg" />
+                                                    <input asp-for="LastName" type="text" id="form3Examplev3" class="form-control form-control-lg" placeholder="Sobrenome" />
                                                     <label asp-for="LastName" class="form-label" for="form3Examplev3">Sobrenome</label>
                                                     <span asp-validation-for="LastName" class="text-danger"></span>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 mb-4 pb-2">
-                                                <div class="form-check form-check-inline mb-0 me-4">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
-                                                           value="option1" />
-                                                    <label class="form-check-label" for="maleGender">Masculino</label>
-                                                </div>
+                                        </div>
 
-                                                <div class="form-check form-check-inline mb-0 me-4">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
-                                                           value="option2" />
-                                                    <label class="form-check-label" for="femaleGender">Feminino</label>
-                                                </div>
-
-                                                <div class="form-check form-check-inline mb-0 me-4">
-                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
-                                                           value="option3" />
-                                                    <label class="form-check-label" for="otherGender">Outro</label>
-                                                </div>
-
+                                        <div class="mb-4 pb-2">
+                                            <div class="form-outline">
+                                                <input asp-for="UserJob" class="form-control form-control-lg" rows="3" placeholder="O que você faz?" />
+                                                <label asp-for="UserJob" class="col-form-label" for="form3Examplev3">Profissão ou Serviço</label>
+                                                <span asp-validation-for="UserJob" class="text-danger"></span>
                                             </div>
                                         </div>
 
@@ -83,19 +71,19 @@
 
                                 <div class="col-lg-6 bg-indigo text-black">
                                     <div class="p-5">
-                                        <h3 class="fw-normal mb-5" style="color: #2B4B82">Localização</h3>
+                                        <h3 class="fw-normal mb-5" style="color: #F7B4A7">Localização</h3>
 
                                         <div class="mb-4 pb-2">
                                             <div class="form-outline form-white">
-                                                <input asp-for="AddressLine" type="text" id="form3Examplea2" class="form-control form-control-lg" />
-                                                <label asp-for="AddressLine" class="form-label" for="form3Examplea2">Endereço (Nome da Rua, Número)</label>
+                                                <input asp-for="AddressLine" type="text" id="form3Examplea2" class="form-control form-control-lg" placeholder="Nome da Rua, Número" />
+                                                <label asp-for="AddressLine" class="form-label" for="form3Examplea2">Endereço</label>
                                                 <span asp-validation-for="AddressLine" class="text-danger"></span>
                                             </div>
                                         </div>
 
                                         <div class="mb-4 pb-2">
                                             <div class="form-outline form-white">
-                                                <input asp-for="AdditionalAddress" type="text" id="form3Examplea3" class="form-control form-control-lg" />
+                                                <input asp-for="AdditionalAddress" type="text" id="form3Examplea3" class="form-control form-control-lg" placeholder="Exemplo: Número do Apartamento" />
                                                 <label asp-for="AdditionalAddress" class="form-label" for="form3Examplea3">Complemento</label>
                                                 <span asp-validation-for="AdditionalAddress" class="text-danger"></span>
                                             </div>

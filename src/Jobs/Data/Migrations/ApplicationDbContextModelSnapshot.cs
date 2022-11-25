@@ -309,6 +309,10 @@ namespace Jobs.Data.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
+                    b.Property<string>("UserJob")
+                        .HasMaxLength(32)
+                        .HasColumnType("nvarchar(32)");
+
                     b.Property<string>("ZipCode")
                         .HasMaxLength(8)
                         .HasColumnType("nvarchar(8)");

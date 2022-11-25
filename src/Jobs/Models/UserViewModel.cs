@@ -24,6 +24,10 @@ namespace Jobs.Models
         [StringLength(9)]
         public string Phone { get; set; }
 
+        [DisplayName("Profissão ou Serviço")]
+        [StringLength(32)]
+        public string UserJob { get; set; }
+
         [DisplayName("Biografia")]
         [StringLength(500)]
         public string UserBio { get; set; }
