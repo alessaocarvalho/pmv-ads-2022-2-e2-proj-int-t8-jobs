@@ -18,9 +18,9 @@ namespace Jobs.Models {
         public string Description { get; set; }
         [DisplayName("Horário")]
         [Required]
-        public string StartTime { get; set; }
+        public TimeSpan StartTime { get; set; }
         [Required]
-        public string EndTime { get; set; }
+        public TimeSpan EndTime { get; set; }
         [Required(ErrorMessage = "*")]
         [DisplayName("Endereço")]
         public string Address { get; set; }
@@ -28,7 +28,7 @@ namespace Jobs.Models {
         [DisplayName("Telefone")]
         public string Phone { get; set; }
         [DisplayName("Preço")]
-        public string Price { get; set; }
+        public decimal Price { get; set; }
         public string ImageUrl { get; set; }
         public string LastUpdate { get; set; }
     }
