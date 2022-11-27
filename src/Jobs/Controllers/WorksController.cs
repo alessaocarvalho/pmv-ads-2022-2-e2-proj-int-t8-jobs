@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Jobs.Data;
 using Jobs.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
-using Jobs.Entities;
-using System.Net.WebSockets;
-using static System.Net.Mime.MediaTypeNames;
 using System.IO;
 using System.Diagnostics;
 
@@ -30,10 +25,17 @@ namespace Jobs.Controllers
             return View(await _context.Works.ToListAsync());
         }
 
-        public async Task<IActionResult> Search(string searchParam) {
-            return View(await _context.Works.ToListAsync());
-        }
-
+        public async Task<IActionResult> Search(string searchParam) 
+        {
+            if (string.IsNullOrEmpty(searchParam))
+            {
+                return View(await _context.Works.ToListAsync());
+            }
+            else
+            {
+                return View(await _context.Works.Where(p => p.Title.ToUpper().Contains(searchParam.ToUpper())).ToListAsync());
+            }
+        } 
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
