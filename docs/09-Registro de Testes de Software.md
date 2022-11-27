@@ -31,7 +31,8 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>Os dados foram alterados e atualizados corretamente no banco de dados.</td>
     </tr>
     <tr>
-        <td>Alisson A. Carvalho</td>
+        <td>Alisson A. Carvalho</td>![Teste de modelo de dados01](https://user-images.githubusercontent.com/102563767/204155829-e3591fc5-7b07-4398-956f-63c3bf77f97e.png)
+
         <td>Etapa 4</td>
         <td>27/11/2022</td>
         <td>RF-03: Verificar se perfis, serviços e demais informações podem ser inseridos, atualizados e consultados.</td>
@@ -84,3 +85,9 @@ Abaixo temos capturas de tela ilustrando a execução de cada uma das referênci
 A imagem a seguir ilustra como o banco de dados é atualizado conforme os requisitos RF-01, RF-02 e RF-03:
 
 ![banco-usuario](https://user-images.githubusercontent.com/100442612/204148566-2e4a2e54-4fb6-4da3-b959-e355dd8e9ceb.png)
+
+A imagem a seguir ilustra como a aplicação se comporta referente os requisitos RF-02, RF-03 e RF-04:
+
+![Teste de modelo de dados01](https://user-images.githubusercontent.com/102563767/204155843-9e368c21-1a16-4f64-9d6d-38fcf5c46946.png)
+![Teste de modelo de dados 02](https://user-images.githubusercontent.com/102563767/204155849-c4819333-e27c-4c61-a506-352da4de03a5.png)
+![teste modelo de dados 03](https://user-images.githubusercontent.com/102563767/204155852-7fcdcb4a-2966-4731-a4e6-0b21e2381d16.png)
