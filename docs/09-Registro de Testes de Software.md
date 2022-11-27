@@ -40,13 +40,13 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>Informações adicionais de Perfil e Serviços foram inseridas e armazenadas corretamente no banco de dados da aplicação.</td>
     </tr>
     <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
+        <td>Vinicius L. Oliveira</td>
+        <td>Etapa 4</td>
+        <td>27/11/22</td>
         <td>RF-04: Verificar se o usuário consegue visualizar informações de um serviço antes de contatar o anunciante.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
+        <td>1.Entrar na página referente a busca de serviços; 2. Pesquisar pelo serviço desejado; Visualizar as informações do serviço. </td>
+        <td>O teste foi executado com sucesso</td>
+        <td>Informações sobre o anúncio foram visualizadas na página de busca. </td>
     </tr>
     <tr>
         <td>N/D</td>
@@ -67,31 +67,31 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>N/D</td>
     </tr>
     <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
+        <td>Vinicius L. Oliveira</td>
+        <td>Etapa 4</td>
+        <td>27/11/22</td>
         <td>RF-04: Verificar se o usuário deve conseguir buscar por serviços vinculados a um determinado anunciante.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
+        <td>1.Entrar na página de busca; 2. Digitar o serviço desejado; 3. Verificar se foi retornado o serviço procurado. </td>
+        <td>O teste foi excutado com sucesso</td>
+        <td>A busca  dos anúncios no banco de dados teve o retorno do serviço dos anunciantes desejado. </td>
     </tr>
     <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
+        <td>Vinicius L. Oliveira</td>
+        <td>Etapa 4</td>
+        <td>27/11/22</td>
         <td>RF-06: Verificar se o usuário deve conseguir publicar serviços na plataforma.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
+        <td>1. Entrar na página referente ao anúncio; 2. Preencher os dados do serviço e publicá-lo; 3. Verificar se o serviço está disponível no banco de dados.   </td>
+        <td>O teste foi excutado com sucesso</td>
+        <td>A publicação do anúncio foi executada e armazenada no banco de dados com sucesso. </td>
     </tr>
     <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
+        <td>Vinicius L. Oliveira</td>
+        <td>Etapa 4</td>
+        <td>27/11/22</td>
         <td>RF-07: O Anunciante deve conseguir informar valores para seus serviços.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
+        <td>1. Na página Anunciar, inserir o preço na coluna correspondente; 2. Publicar. </td>
+        <td>O teste foi excutado com sucesso</td>
+        <td>O preço foi inserido com sucesso na barra de dados do anúncio. </td>
     </tr>
     <tr>
         <td>N/D</td>
