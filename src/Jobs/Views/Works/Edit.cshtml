@@ -88,29 +88,15 @@
                                 </ul>
                             </div>
                         </div>
-
-                        <div class="w-100" style="border-radius: 5px; height: 36px; border: 1px solid #e3e3e3;"></div>
-                    </div>
-                    <div class="app-work-user-container">
-                        <div class="card bg-transparent" style="width: 100%;">
-
-                            <div class="app-work-user-card">
-                                <img class="app-work-user-img card-img-top" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="Card image cap" style=" object-fit: cover; border: none;">
-                                <div class="card-body w-100 app-bg-blue">
-                                    <h5 class="card-title text-white">Amanda Rodrigues</h5>
-                                    <h6 class="card-text text-white-50">Web Design</h6>
-                                </div>
-                            </div>
-
-                            <ul class="list-group list-group-flush app-bg-blue" style="border-radius: 0px 0px 5px 5px; border: 1px solid var(--theme-colors-blue);">
-                                <li class="list-group-item bg-transparent app-color-melon">Publicações: <span class="text-white">10</span></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Salvar modificações" class="app-work-submit-button" />
                 </div>
+            </form>
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Deletar" class="btn btn-danger" />
             </form>
         </div>
     </div>
