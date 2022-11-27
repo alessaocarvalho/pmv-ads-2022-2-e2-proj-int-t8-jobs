@@ -19,7 +19,7 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>RF-01: Verificar se as informações do usuário podem ser cadastradas, consultadas e removidas.</td>
         <td>1. Cadastrar novo usuário; 2. Verificar existência no banco de dados; 3. Remover informações.</td>
         <td>O teste foi executado com sucesso</td>
-        <td>O cadastro foi executado com sucesso e armazenado no banco de dados, após consulta o usuário foi removido.</td>
+        <td>O cadastro foi executado com sucesso e armazenado no banco de dados, após consulta os dados foram alterados e removidos pela própria interface.</td>
     </tr>
     <tr>
         <td>Alisson A. Carvalho</td>
@@ -27,16 +27,16 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>28/10/2022</td>
         <td>RF-02: Verificar se as informações armazenadas do perfil dos usuários podem ser editadas ou atualizadas.</td>
         <td>1. Executar alteração de dados de usuário existente no banco de dados; 2. Verificar se as mudanças foram aplicadas no banco.</td>
-        <td>O teste foi executado, mas não foi obtido sucesso</td>
-        <td>Não foi possível alterar os dados do usuário no banco de dados através das funcionalidades disponíveis na interface, será corrigido nas próximas etapas.</td>
+        <td>O teste foi executado com sucesso</td>
+        <td>Os dados foram alterados e atualizados corretamente no banco de dados.</td>
     </tr>
     <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
+        <td>Alisson A. Carvalho</td>
+        <td>Etapa 4</td>
+        <td>27/11/2022</td>
         <td>RF-03: Verificar se perfis, serviços e demais informações podem ser inseridos, atualizados e consultados.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
+        <td>O teste foi executado com sucesso</td>
+        <td>Informações adicionais de Perfil e Serviços foram inseridas e armazaenadas corretamente no banco de dados da aplicação.</td>
         <td>N/D</td>
     </tr>
     <tr>
@@ -52,7 +52,7 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>N/D</td>
         <td>N/D</td>
         <td>N/D</td>
-        <td>RF-09: A plataforma deve notificar e eviar as devidas informações ao anunciante sobre a solicitação de um serviço.</td>
+        <td>RF-09: A plataforma deve notificar e enviar as devidas informações ao anunciante sobre a solicitação de um serviço.</td>
         <td>Ainda não foi executada nenhuma ação</td>
         <td>Funcionalidade ainda não disponível</td>
         <td>N/D</td>
@@ -125,3 +125,7 @@ Este é um registro de testes executados para caso de teste definido no <a href=
 ## Capturas de Tela
 
 Abaixo temos capturas de tela ilustrando a execução de cada uma das referências de teste.
+
+A imagem a seguir ilustra como o banco de dados é atualizado conforme os requisitos RF-01, RF-02 e RF-03:
+
+![banco-usuario](https://user-images.githubusercontent.com/100442612/204148566-2e4a2e54-4fb6-4da3-b959-e355dd8e9ceb.png)
