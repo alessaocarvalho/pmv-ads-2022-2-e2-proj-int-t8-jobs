@@ -16,19 +16,21 @@ namespace Jobs.Models {
         [Required(ErrorMessage = "Campo Obrigatório")]
         [DisplayName("Sobre")]
         public string Description { get; set; }
+        [Required(ErrorMessage = "jfgjhf")]
+        [DisplayName("Preço")]
+        public decimal Price { get; set; }
         [DisplayName("Horário")]
+        [Required(ErrorMessage = "*")]
+        public string StartTime { get; set; }
         [Required]
-        public TimeSpan StartTime { get; set; }
-        [Required]
-        public TimeSpan EndTime { get; set; }
+        public string EndTime { get; set; }
         [Required(ErrorMessage = "*")]
         [DisplayName("Endereço")]
         public string Address { get; set; }
         [Required(ErrorMessage = "*")]
         [DisplayName("Telefone")]
         public string Phone { get; set; }
-        [DisplayName("Preço")]
-        public decimal Price { get; set; }
+        
         public string ImageUrl { get; set; }
         public string LastUpdate { get; set; }
     }
