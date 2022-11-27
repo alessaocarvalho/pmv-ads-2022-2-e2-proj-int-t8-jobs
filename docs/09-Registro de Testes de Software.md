@@ -31,8 +31,7 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>Os dados foram alterados e atualizados corretamente no banco de dados.</td>
     </tr>
     <tr>
-        <td>Alisson A. Carvalho</td>![Teste de modelo de dados01](https://user-images.githubusercontent.com/102563767/204155829-e3591fc5-7b07-4398-956f-63c3bf77f97e.png)
-
+        <td>Alisson A. Carvalho</td>
         <td>Etapa 4</td>
         <td>27/11/2022</td>
         <td>RF-03: Verificar se perfis, serviços e demais informações podem ser inseridos, atualizados e consultados.</td>
