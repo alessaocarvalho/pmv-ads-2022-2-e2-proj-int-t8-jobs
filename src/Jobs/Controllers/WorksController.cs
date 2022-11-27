@@ -24,10 +24,17 @@ namespace Jobs.Controllers
             return View(await _context.Works.ToListAsync());
         }
 
-        public async Task<IActionResult> Search(string searchParam) {
-            return View(await _context.Works.ToListAsync());
-        }
-
+        public async Task<IActionResult> Search(string searchParam) 
+        {
+            if (string.IsNullOrEmpty(searchParam))
+            {
+                return View(await _context.Works.ToListAsync());
+            }
+            else
+            {
+                return View(await _context.Works.Where(p => p.Title.ToUpper().Contains(searchParam.ToUpper())).ToListAsync());
+            }
+        } 
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
