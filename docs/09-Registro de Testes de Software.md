@@ -52,15 +52,6 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>N/D</td>
         <td>N/D</td>
         <td>N/D</td>
-        <td>RF-09: A plataforma deve notificar e enviar as devidas informações ao anunciante sobre a solicitação de um serviço.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
-    </tr>
-    <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
         <td>RNF-02: A plataforma deve verificar existe disponibilidade do serviço requisitado pelo usuário antes de notificar o anunciante.</td>
         <td>Ainda não foi executada nenhuma ação</td>
         <td>Funcionalidade ainda não disponível</td>
@@ -92,33 +83,6 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>1. Na página Anunciar, inserir o preço na coluna correspondente; 2. Publicar. </td>
         <td>O teste foi excutado com sucesso</td>
         <td>O preço foi inserido com sucesso na barra de dados do anúncio. </td>
-    </tr>
-    <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>RF-08: Verificar se o anunciante deve consegue escolher o meio de comunicação com o usuário referente ao serviço publicado.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
-    </tr>
-    <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>RF-10: Verificar se o anunciante consegue rejeitar um serviço caso não queira executa-lo.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
-    </tr>
-    <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>RF-11: Verificar se o usuário consegue avaliar serviços contratados da plataforma.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
     </tr>
 </table>
 
