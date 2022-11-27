@@ -126,31 +126,14 @@ A lista abaixo identifica os requisitos funcionais e não-funcionais do projeto 
 - RF-04Verificar se o usuário consegue visualizar informações de um serviço antes de contatar o anunciante 
  
 
-- RF-09 A plataforma deve notificar e eviar as devidas informações ao anunciante sobre a solicitação de um serviço.   
- 
-
 - RNF-02 A plataforma deve verificar existe disponibilidade do serviço requisitado pelo usuário antes de notificar o anunciante
 
 
 `TESTE FUNCIONAL`
 
-- Rf-04 Verificar se o usuário deve conseguir buscar por serviços vinculados a um determinado anunciante. 
- 
-
 - RF-06 Verificar se o usuário deve conseguir publicar serviços na plataforma. 
  
-
 - RF-07 O Anunciante deve conseguir informar valores para seus serviços.   
- 
-
-- RF-08 Verificar se o anunciante deve consegue escolher o meio de comunicação com o usuário referente ao serviço publicado.   
- 
-
-- RF-10 Verificar se o anunciante consegue rejeitar um serviço caso não queira executa-lo.  
- 
-
-- RF-11 Verificar se o usuário consegue avaliar serviços contratados da plataforma.   
-
 
 `TESTE DA INTERFACE DO USUARIO`
 
