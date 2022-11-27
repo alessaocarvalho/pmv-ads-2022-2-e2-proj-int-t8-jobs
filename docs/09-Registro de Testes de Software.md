@@ -35,9 +35,9 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>Etapa 4</td>
         <td>27/11/2022</td>
         <td>RF-03: Verificar se perfis, serviços e demais informações podem ser inseridos, atualizados e consultados.</td>
+        <td>1. Entrar na página referente ao perfil do usuário e conferir os dados; 2. Editar os dados inserindo as informações correspondentes a cada campo; 3. Salvar as alterações e verificar o banco de dados.</td>
         <td>O teste foi executado com sucesso</td>
         <td>Informações adicionais de Perfil e Serviços foram inseridas e armazaenadas corretamente no banco de dados da aplicação.</td>
-        <td>N/D</td>
     </tr>
     <tr>
         <td>N/D</td>
