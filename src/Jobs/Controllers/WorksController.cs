@@ -8,6 +8,7 @@ using Jobs.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using System.IO;
+using System.Diagnostics;
 
 namespace Jobs.Controllers
 {
@@ -60,7 +61,7 @@ namespace Jobs.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id, Title,Description, Address, Phone, StartTime, EndTime")] Work work, IFormFile formFile)
+        public async Task<IActionResult> Create([Bind("Id, Title,Description, Address, Phone, StartTime, EndTime")] Work work, IFormFile formFile, string Price)
         {
             if (ModelState.IsValid)
             {
@@ -73,7 +74,11 @@ namespace Jobs.Controllers
 
                 work.User = User.Identity.Name;
                 work.LastUpdate = DateTime.Now.ToString();
-
+                if (decimal.TryParse(Price, out decimal result))
+                {
+                    work.Price = result;
+                }
+              
                 _context.Add(work);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -157,6 +162,17 @@ namespace Jobs.Controllers
         private bool WorkExists(int id)
         {
             return _context.Works.Any(e => e.Id == id);
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error(string Message)
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier, Message = Message });
         }
     }
 }

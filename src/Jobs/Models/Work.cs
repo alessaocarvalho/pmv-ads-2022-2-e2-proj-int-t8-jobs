@@ -16,8 +16,10 @@ namespace Jobs.Models {
         [Required(ErrorMessage = "Campo Obrigatório")]
         [DisplayName("Sobre")]
         public string Description { get; set; }
+        [DisplayName("Preço")]
+        public decimal Price { get; set; }
         [DisplayName("Horário")]
-        [Required]
+        [Required(ErrorMessage = "*")]
         public string StartTime { get; set; }
         [Required]
         public string EndTime { get; set; }
@@ -27,8 +29,7 @@ namespace Jobs.Models {
         [Required(ErrorMessage = "*")]
         [DisplayName("Telefone")]
         public string Phone { get; set; }
-        [DisplayName("Preço")]
-        public string Price { get; set; }
+        
         public string ImageUrl { get; set; }
         public string LastUpdate { get; set; }
     }
