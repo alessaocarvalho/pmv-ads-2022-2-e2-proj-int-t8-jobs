@@ -49,15 +49,6 @@ Este é um registro de testes executados para caso de teste definido no <a href=
         <td>Informações sobre o anúncio foram visualizadas na página de busca. </td>
     </tr>
     <tr>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>N/D</td>
-        <td>RNF-02: A plataforma deve verificar existe disponibilidade do serviço requisitado pelo usuário antes de notificar o anunciante.</td>
-        <td>Ainda não foi executada nenhuma ação</td>
-        <td>Funcionalidade ainda não disponível</td>
-        <td>N/D</td>
-    </tr>
-    <tr>
         <td>Vinicius L. Oliveira</td>
         <td>Etapa 4</td>
         <td>27/11/22</td>
