@@ -67,7 +67,7 @@
                         <img src="@work.ImageUrl" style="width: 100%; height: 150px; object-fit: cover;" alt="...">
                         <div class="justify-content-between p-3 d-flex flex-column justify-content-between" style="height: calc(100% - 150px);">
                             <h5 class="card-title">@work.Title</h5>
-                            <p class="card-text">@work.Description</p>
+                            <p class="card-text">@(work.Description.Substring(0, 75)+ "...")</p>
                             <a asp-action="Details" asp-controller="Works" asp-route-id="@work.Id" class=" app-work-item-button d-flex justify-content-center align-items-center text-decoration-none d-inline currentColor">Visualizar</a>
                         </div>
                     </li>
