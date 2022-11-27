@@ -16,7 +16,6 @@ namespace Jobs.Models {
         [Required(ErrorMessage = "Campo Obrigatório")]
         [DisplayName("Sobre")]
         public string Description { get; set; }
-        [Required(ErrorMessage = "jfgjhf")]
         [DisplayName("Preço")]
         public decimal Price { get; set; }
         [DisplayName("Horário")]
