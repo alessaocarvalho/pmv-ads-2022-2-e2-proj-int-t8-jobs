@@ -144,23 +144,6 @@ namespace Jobs.Controllers
             return View(work);
         }
 
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var work = await _context.Works
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (work == null)
-            {
-                return NotFound();
-            }
-
-            return View(work);
-        }
-
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
